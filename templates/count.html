@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNT</title>
+</head>
+<body>
+
+    <a href="{% url 'home' %}">Home - Start Again...</a>
+
+    <h1>There are {{number_words}} words in your text</h1>
+    <h1>Original text:</h1>
+    <h2>{{fulltext}}</h2>
+
+    <h1>word list</h1>
+    <h2>{{words}}</h2>
+
+    <h1>Statistic</h1>
+    <h2>{{statistic}}</h2>
+
+</body>
+</html>
